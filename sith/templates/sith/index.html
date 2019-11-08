@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Пункт управления</title>
+    <script src="https://d1tdp7z6w94jbb.cloudfront.net/js/jquery-3.3.1.min.js" type="text/javascript" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link href="{% static 'css/index.css' %}" rel="stylesheet" type="text/css">
+    <script src="{% static 'js/index.js' %}" type="text/javascript"></script>
+</head>
+<body>
+
+<div class="sith_button"><a href="#" onclick="load_sith_data()" >Ситхи</a><a class="recruit_button" href="#" onclick="get_planet()" >Рекрутеры</a></div>
+
+<div class="result"> </div>
+</body>
+
+</html>
